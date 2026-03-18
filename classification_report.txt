@@ -1,0 +1,24 @@
+CLASSIFICATION REPORT
+============================================================
+               precision    recall  f1-score   support
+
+        toxic       0.87      0.76      0.81      1469
+ severe_toxic       0.34      0.94      0.50       155
+      obscene       0.82      0.87      0.85       819
+       threat       0.47      0.77      0.58        39
+       insult       0.64      0.85      0.73       731
+identity_hate       0.48      0.82      0.60       129
+
+    micro avg       0.71      0.82      0.76      3342
+    macro avg       0.60      0.83      0.68      3342
+ weighted avg       0.76      0.82      0.78      3342
+  samples avg       0.06      0.07      0.06      3342
+
+
+OVERALL METRICS
+Subset Accuracy: 0.9172
+Hamming Loss: 0.0184
+F1 Micro: 0.7610
+F1 Macro: 0.6791
+ROC-AUC Micro: 0.9901
+ROC-AUC Macro: 0.9896
